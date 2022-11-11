@@ -1,4 +1,4 @@
-class notemaking 
+class NoteM
 {
     constructor(fname,lname,uname,pwd,note)
     {
@@ -70,7 +70,7 @@ function register(e){
     let username=document.getElementById('uname').value;
     let passwrd=document.getElementById('password').value;
 
-    let regi= new notemaking(firstname,lastname,username,passwrd,);
+    let regi= new NoteM(firstname,lastname,username,passwrd,);
     console.log(regi.FN)
     console.log(regi.LN)
     console.log(regi.UN)
